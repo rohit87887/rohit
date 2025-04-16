@@ -1,4 +1,4 @@
-# 🏥 Health Insurance Analysis Web App
+# 🏥 Health Insurance Analysis 
 
 🚀 **Project by:**  
 👤 Fedrick Engels  
@@ -37,8 +37,8 @@ This web-based application is designed to **analyze health insurance data** and 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/CropPredictor.git
-cd CropPredictor
+git clone https://github.com/yourusername/InsuranceTypePredictor.git
+cd InsuranceTypePredictor
 ```
 
 ### 2️⃣ Install Required Packages
@@ -100,16 +100,11 @@ To contribute:
 
 1. Fork the repository  
 2. Create a new branch (e.g., `feature/new-feature`)  
-3. Commit and push your changes  
-4. Open a Pull Request 🎉
+
 
 ---
 
-## 📝 License
 
-This project is licensed under the **MIT License**.
-
----
 
 ## 📬 Contact
 
@@ -117,3 +112,5 @@ This project is licensed under the **MIT License**.
 🌐 GitHub: [rohit87887](https://github.com/rohit87887)
 
 ---
+
+
