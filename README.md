@@ -3,15 +3,16 @@ Health Insurance Analysis Web App
 👤 Fedrick engels 
 👤 Rohit – GitHub Profile
 
-📌 Overview
+ 
+ Overview
 This web-based application is designed to analyze health insurance data effectively and provide insights using modern visualization and predictive analytics tools. Built with cutting-edge technologies, it offers an intuitive platform to upload, process, and visualize insurance datasets, supporting features like classification of insurance types and cost predictions.
 
-✅ Key Features
-✅ Upload and visualize insurance data easily
-✅ Fast prediction using trained ML models
-✅ Multiple file formats supported – CSV, XLSX, etc.
-✅ Interactive charts and dashboards
-✅ No installation required – 100% browser-based
+ Key Features
+ Upload and visualize insurance data easily
+ Fast prediction using trained ML models
+ Multiple file formats supported – CSV, XLSX, etc.
+Interactive charts and dashboards
+ No installation required – 100% browser-based
 
 Tech Stack
 Component	Technologies Used
@@ -49,18 +50,18 @@ python models/Insurace_Type_classifier.py
 
 
 
-📊 Data Handling and Assumptions
+ Data Handling and Assumptions
 Our system is designed to process real-world insurance data reliably by implementing robust preprocessing strategies:
 
-✅ Handling Missing Values
+ Handling Missing Values
 Numerical Columns: Missing values are filled using the median to reduce the effect of outliers.
 
 Categorical Columns: Missing entries are filled with the mode to maintain the most frequent value representation.
 
-✅ Data Normalization
+ Data Normalization
 All text inputs (such as names, categories) are normalized by converting to lowercase and trimming whitespaces to ensure consistency and avoid mismatched labels.
 
-✅ Encoding for Machine Learning
+ Encoding for Machine Learning
 Label Encoding is applied to key categorical features such as:
 
 State – To represent geographical regions numerically.
@@ -69,7 +70,7 @@ Season – For seasonal trend analysis.
 
 Insurance_Type – To make it suitable for model training and classification tasks.
 
-✅ Real-World Input Handling
+ Real-World Input Handling
 The prediction system is built to accept messy or imperfect user input and still produce accurate results. It includes:
 
 Flexible parsing logic
